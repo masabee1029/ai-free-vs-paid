@@ -1,0 +1,42 @@
+# 自動投稿の記事ネタ（上から順に1本ずつ書く。書いたら行頭に「済 」を付ける）カテゴリ: ChatGPT / Gemini / Claude / Copilot / NotebookLM / Canva / 比較
+# 公開時の40本（2026-10-21）。題名には検索の3語（Googleの検索候補）をそのまま入れる。slug は右端
+済 ChatGPTの無料と有料の違い｜Plusにすると仕事で何が変わる？ | ChatGPT | chatgpt-free-vs-paid
+済 ChatGPT無料版の制限と上限｜回数・使えるモデル・リセットの考え方 | ChatGPT | chatgpt-free-limits
+済 ChatGPT無料でどこまでできる？会社の用事で試せること | ChatGPT | chatgpt-free-what-you-can-do
+済 ChatGPTの料金プラン比較（Plus・Pro・Business）日本円の目安 | ChatGPT | chatgpt-plans-price
+済 ChatGPT Businessの料金と、会社で使うときに確かめること | ChatGPT | chatgpt-business-price
+済 ChatGPTの画像生成の制限｜無料版で何枚まで？遅いときは | ChatGPT | chatgpt-image-limits
+済 Geminiの無料と有料の違い｜Google AI Proで増えること | Gemini | gemini-free-vs-paid
+済 Gemini無料版の制限｜どこまで使える？いつまで無料？ | Gemini | gemini-free-limits
+済 Geminiの料金プラン比較｜個人向けと法人向け（Workspace） | Gemini | gemini-plans-price
+済 Geminiの画像生成の制限と、無料で試すコツ | Gemini | gemini-image-limits
+済 Gemini無料版の使い方｜Gmail・ドキュメントと一緒に使う | Gemini | gemini-free-howto
+済 Geminiのモデル比較｜どれを選べばいい？ | Gemini | gemini-models-compare
+済 Claudeの無料と有料の違い｜Proにすると何が変わる？ | Claude | claude-free-vs-paid
+済 Claude無料版の制限と上限｜メッセージ数の考え方 | Claude | claude-free-limits
+済 Claudeの料金を日本円で｜Pro・Max・Teamの目安 | Claude | claude-price-yen
+済 Claudeの使い方（初心者向け）｜最初の3つの頼みごと | Claude | claude-beginner-howto
+済 Claude Teamプランの料金と、会社で使うときの注意 | Claude | claude-team-price
+済 Claude for Excelとは？できることと始める前の確認 | Claude | claude-for-excel
+済 Copilotの無料と有料の違い｜会社のPCのCopilotはどっち？ | Copilot | copilot-free-vs-paid
+済 Copilot無料版の制限｜画像生成の上限と使える機能 | Copilot | copilot-free-limits
+済 Copilotの個人向け料金｜Microsoft 365 Personal・Familyとの関係 | Copilot | copilot-personal-price
+済 Copilotの法人向け料金｜Microsoft 365 Copilotを会社で入れるとき | Copilot | copilot-business-price
+済 Copilotの履歴は会社にバレる？仕事で使う前に知っておきたいこと | Copilot | copilot-history-company
+済 Copilot in Excelの使い方｜表示されないときの確認 | Copilot | copilot-in-excel
+済 NotebookLMの無料と有料の違い｜Proで増える上限 | NotebookLM | notebooklm-free-vs-paid
+済 NotebookLM無料版の制限と上限｜ノートブック数・ソース数 | NotebookLM | notebooklm-free-limits
+済 NotebookLMの料金｜個人と法人（Workspace）で使うとき | NotebookLM | notebooklm-price
+済 NotebookLM無料版の使い方｜会社の資料をまとめる前の注意 | NotebookLM | notebooklm-free-howto
+済 NotebookLMのセキュリティ｜無料版に資料を入れて大丈夫？ | NotebookLM | notebooklm-security
+済 Canva AIは無料？無料と有料（Canvaプロ）の違い | Canva | canva-ai-free-vs-paid
+済 Canva AIの料金｜Canvaプロ・ビジネスで増えるAI機能 | Canva | canva-ai-price
+済 Canva AIの無料版の制限｜回数の上限と使える機能 | Canva | canva-ai-free-limits
+済 Canva AIでスライドを無料で作る｜できないときの確認 | Canva | canva-ai-slides-free
+済 Canva AIの資料作成のやり方｜会社の資料に使うときの注意 | Canva | canva-ai-documents
+済 ChatGPTとGeminiの比較｜無料版で仕事に使うならどっち？ | 比較 | chatgpt-vs-gemini
+済 ClaudeとGeminiの比較｜長い資料を読ませるならどっち？ | 比較 | claude-vs-gemini
+済 CopilotとGeminiの比較｜会社のPCで使うならどっち？ | 比較 | copilot-vs-gemini
+済 生成AIのサブスク比較｜月額で選ぶ6つのAI | 比較 | ai-subscription-compare
+済 生成AIの無料おすすめ｜会社員がまず試したい6つ | 比較 | ai-free-recommend
+済 生成AIの課金比較｜有料にする前の3つの確認 | 比較 | ai-paid-before-you-pay

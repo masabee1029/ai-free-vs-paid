@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://masabee1029.github.io/ai-free-vs-paid/sitemap.xml
