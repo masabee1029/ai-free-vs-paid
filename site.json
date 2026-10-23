@@ -146,5 +146,73 @@
  "next_step_html": "<p>まずは無料版で、今日の用事を1つだけAIに頼んでみませんか。足りないと感じた所が、有料にするかを決める一番の材料になります。</p><p>あなたが最初に任せたい仕事は何ですか？</p><p>最後まで読んでくださり、ありがとうございました。</p>",
  "refs": {
   "_label": "2026年10月の人気"
- }
+ },
+ "vc_title": "あわせて使えるサービス（PR）",
+ "vc_ads": [
+  {
+   "name": "PLAUD（AIボイスレコーダー）",
+   "note": "会議を録るだけで、AIが文字起こしと要約をしてくれる",
+   "btn": "公式ストアを見る",
+   "cats": [
+    "ChatGPT",
+    "Copilot",
+    "NotebookLM"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BELTL+7QQQA+5J4W+5YRHE",
+   "beacon": "https://www11.a8.net/0.gif?a8mat=4BELTL+7QQQA+5J4W+5YRHE"
+  },
+  {
+   "name": "MiriCanvas（AIプレゼン）",
+   "note": "話す内容を入れると、AIがスライドの形にしてくれる",
+   "btn": "無料で試す",
+   "cats": [
+    "Copilot",
+    "Canva",
+    "比較"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BELTL+APWR6+5EX8+BX3J6",
+   "beacon": "https://www18.a8.net/0.gif?a8mat=4BELTL+APWR6+5EX8+BX3J6"
+  },
+  {
+   "name": "ConoHa AI Canvas",
+   "note": "インストールなしで、ブラウザだけでAI画像を作れる",
+   "btn": "公式サイトを見る",
+   "cats": [
+    "ChatGPT",
+    "Gemini",
+    "Canva",
+    "比較"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BELTL+BWRYQ+50+7RTY1E",
+   "beacon": "https://www14.a8.net/0.gif?a8mat=4BELTL+BWRYQ+50+7RTY1E"
+  },
+  {
+   "name": "GMKtec（ミニPC）",
+   "note": "机に置ける小さなPCで、AIを使う1台をそろえる",
+   "btn": "公式ストアを見る",
+   "cats": [
+    "Gemini",
+    "Claude",
+    "比較"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BENDR+7QQQA+5W12+5YRHE",
+   "beacon": "https://www11.a8.net/0.gif?a8mat=4BENDR+7QQQA+5W12+5YRHE"
+  },
+  {
+   "name": "Qualit（中古パソコン）",
+   "note": "12か月保証つきの中古PCで、AI用の1台を安くそろえる",
+   "btn": "中古PCを見る",
+   "cats": [
+    "Claude",
+    "NotebookLM"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BENDR+K8UFM+50H8+5YJRM",
+   "beacon": "https://www19.a8.net/0.gif?a8mat=4BENDR+K8UFM+50H8+5YJRM"
+  }
+ ]
 }
