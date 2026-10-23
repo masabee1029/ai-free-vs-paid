@@ -40,3 +40,14 @@
 済 生成AIのサブスク比較｜月額で選ぶ6つのAI | 比較 | ai-subscription-compare
 済 生成AIの無料おすすめ｜会社員がまず試したい6つ | 比較 | ai-free-recommend
 済 生成AIの課金比較｜有料にする前の3つの確認 | 比較 | ai-paid-before-you-pay
+# 追加の10本（2026-10-23）
+済 Claude MaxとProの違い｜どんな人向け？月100ドルからの価値 | Claude | claude-max-vs-pro
+Claude無料版でファイル・画像は読める？上限の考え方 | Claude | claude-free-file-upload
+ChatGPT Goの料金と無料との違い｜安い有料プランで何ができる？ | ChatGPT | chatgpt-go-price
+ChatGPTの無料と有料でファイルアップロードはどう違う？ | ChatGPT | chatgpt-file-upload-limits
+Gemini無料版でDeep Researchは使える？上限と有料との違い | Gemini | gemini-deep-research-free
+Google AI ProとAI Ultraの違い｜どちらを選ぶ？ | Gemini | gemini-ai-pro-vs-ultra
+Copilotの個人向けと会社向けの違い｜同じアイコンで中身はどう違う？ | Copilot | copilot-personal-vs-work
+NotebookLMの音声解説は無料で何回作れる？有料との違い | NotebookLM | notebooklm-audio-overview-free
+Canva AIの画像生成の無料回数｜どこまで無料で作れる？ | Canva | canva-ai-image-generation-free
+ChatGPTとClaudeの比較｜文章を書くならどっち？ | 比較 | chatgpt-vs-claude
