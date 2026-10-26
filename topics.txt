@@ -42,7 +42,7 @@
 済 生成AIの課金比較｜有料にする前の3つの確認 | 比較 | ai-paid-before-you-pay
 # 追加の10本（2026-10-23）
 済 Claude MaxとProの違い｜どんな人向け？月100ドルからの価値 | Claude | claude-max-vs-pro
-Claude無料版でファイル・画像は読める？上限の考え方 | Claude | claude-free-file-upload
+済 Claude無料版でファイル・画像は読める？上限の考え方 | Claude | claude-free-file-upload
 ChatGPT Goの料金と無料との違い｜安い有料プランで何ができる？ | ChatGPT | chatgpt-go-price
 ChatGPTの無料と有料でファイルアップロードはどう違う？ | ChatGPT | chatgpt-file-upload-limits
 Gemini無料版でDeep Researchは使える？上限と有料との違い | Gemini | gemini-deep-research-free
