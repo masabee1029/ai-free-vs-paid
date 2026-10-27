@@ -129,7 +129,9 @@
    "#60a5fa",
    "#f97316",
    "#fdba74"
-  ]
+  ],
+  "style": "frame",
+  "card_sub": "ChatGPT・Gemini・Claudeほか"
  },
  "images": {
   "motif": "shapes",
