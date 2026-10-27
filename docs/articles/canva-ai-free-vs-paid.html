@@ -184,6 +184,36 @@ article h2.ax-sum::before{content:"CONCLUSION"}
 .tbl{border:1px solid #24386b;border-radius:8px}.tbl table{margin:0}th{position:sticky;top:0}
 tbody tr:hover td{background:#1b3370!important}
 article ul li::marker{content:"▸ ";color:#4da3ff}
+
+/* category-base: 2026-10-27 カテゴリページの共通部分 */
+.cx-page .cards{counter-reset:none}
+.cx-page .card{position:relative;animation:cxin .5s both;animation-delay:calc(var(--i,0)*60ms)}
+@keyframes cxin{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.cx-page .card{animation:none}}
+.cx-head{position:relative;margin:4px 0 6px}.cx-head h1{margin:0}
+.cx-intro{margin:8px 0 0}
+.cx-meter{display:flex;align-items:center;gap:10px;margin:12px 0 0;font-size:13px}.cx-meter span{white-space:nowrap}.cx-meter b{font-size:1.25em}
+.cx-meter i{position:relative;flex:1;height:8px;border-radius:99px;overflow:hidden;max-width:240px}
+.cx-meter i::after{content:"";position:absolute;left:0;top:0;bottom:0;background:var(--cxm,#888);width:var(--w,0);transition:width .9s ease}
+.cx-sort{display:inline-flex;gap:4px;margin:12px 0 0}.cx-sort button{font:inherit;font-size:13px;padding:4px 12px;cursor:pointer}
+.cx-badge{position:absolute;top:10px;right:10px;font-size:12px;font-weight:700;padding:2px 10px;z-index:2}
+.cx-others{margin:18px 0 8px}.cx-others strong{display:block;font-size:13px;margin-bottom:8px}.cx-others div{display:flex;flex-wrap:wrap;gap:8px}
+.cx-others a{text-decoration:none;font-size:14px;padding:5px 12px}.cx-others small{margin-left:6px;opacity:.7}
+
+/* category: dashboard (2026-10-27) */
+.cx-panel{background:#0f1d42;border:1px solid #24386b;border-radius:12px;padding:0 18px 16px;overflow:hidden}
+.cx-bar{display:flex;align-items:center;gap:6px;margin:0 -18px 14px;padding:8px 14px;background:#08102a;border-bottom:1px solid #24386b;font-family:ui-monospace,monospace;font-size:12px;color:#8fa3d6}
+.cx-bar i{width:10px;height:10px;border-radius:50%;background:#ff5f57}.cx-bar i:nth-child(2){background:#febc2e}.cx-bar i:nth-child(3){background:#28c840}.cx-bar span{margin-left:8px}
+.cx-panel h1{font-size:clamp(24px,3.6vw,32px)}.cx-panel h1 small{font-size:.55em;color:#8fa3d6;margin-left:6px}
+.cx-kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.cx-kpi div{background:#08102a;border:1px solid #24386b;border-radius:8px;padding:8px 12px}.cx-kpi small{display:block;font-size:11px;color:#8fa3d6}
+.cx-kpi b{font-family:ui-monospace,monospace;font-size:26px;color:#4da3ff}.cx-kpi b.cx-d{font-size:15px;color:#3ddc97}.cx-kpi span{font-size:12px;color:#8fa3d6;margin-left:3px}
+.cx-page{--cxm:#3ddc97}.cx-meter i{background:#08102a;border:1px solid #24386b}.cx-meter b{color:#3ddc97;font-family:ui-monospace,monospace}
+.cx-sort button{background:#08102a;color:#8fa3d6;border:1px solid #24386b;border-radius:6px;font-family:ui-monospace,monospace}.cx-sort button.on{color:#08102a;background:#4da3ff;border-color:#4da3ff}
+.cx-page .card::before{content:attr(data-no);position:absolute;top:10px;left:10px;z-index:2;font-family:ui-monospace,monospace;font-size:12px;color:#3ddc97;background:#08102acc;border:1px solid #3ddc9766;border-radius:4px;padding:0 6px}
+.cx-badge{background:#3ddc97;color:#08102a;border-radius:4px;font-family:ui-monospace,monospace;letter-spacing:.1em}
+.cx-others a{background:#08102a;border:1px solid #24386b;border-radius:6px;color:#dfe8ff;font-family:ui-monospace,monospace}.cx-others a:hover{border-color:#4da3ff}.cx-others strong{color:#ff9a3d;font-family:ui-monospace,monospace}
+@media (max-width:560px){.cx-kpi b{font-size:20px}}
 </style><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHWF25C1RB"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-EHWF25C1RB');</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Canva AIは無料？無料と有料（Canvaプロ）の違い", "description": "Canva AIは無料で使えるのか、無料と有料（Canvaプロ）の違いは何かを、公式の料金ページとヘルプで確かめてまとめました。月のAI利用枠の回数、年額の料金、会社の資料に使う前に確かめたいことまで、表で比べて選べるようにしています。", "datePublished": "2026-10-21", "image": "https://masabee1029.github.io/ai-free-vs-paid/img/articles/canva-ai-free-vs-paid.jpg", "author": {"@type": "Person", "name": "運営者", "url": "https://masabee1029.github.io/ai-free-vs-paid/about.html"}, "publisher": {"@type": "Organization", "name": "AIの無料と有料くらべ"}, "mainEntityOfPage": "https://masabee1029.github.io/ai-free-vs-paid/articles/canva-ai-free-vs-paid.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://masabee1029.github.io/ai-free-vs-paid/index.html"}, {"@type": "ListItem", "position": 2, "name": "Canva", "item": "https://masabee1029.github.io/ai-free-vs-paid/category/canva.html"}, {"@type": "ListItem", "position": 3, "name": "Canva AIは無料？無料と有料（Canvaプロ）の違い", "item": "https://masabee1029.github.io/ai-free-vs-paid/articles/canva-ai-free-vs-paid.html"}]}</script></head><body>
 <header><div class="wrap"><div class="top"><a class="logo" href="../index.html">AIの<span>無料と有料</span>くらべ</a><span class="tagline">6つのAIを表で比べる</span></div>
@@ -230,6 +260,8 @@ article ul li::marker{content:"▸ ";color:#4da3ff}
 <ul><li>Canva AIは無料版でも使える。無料版のAI枠は月に最大20回</li><li>Canvaプロは年額11,800円（月あたり約983円）。高品質モデルが月に最大200回、標準モデルは枠を減らさずに使える</li><li>無料体験中のAIの枠は無料版と同じ</li><li>会社で使うときは、利用規程を先に確かめ、社外秘・個人情報は入れない</li></ul>
 <p>小さな次の一歩として、今週の会議資料の表紙を1枚だけ、無料版のCanva AIで作ってみませんか。月末に「設定」→「請求」でAIの利用状況を見て、あなたの使い方には無料と有料のどちらが合いそうでしょうか？</p><div class="next"><div class="next-h">今日できる次の一歩</div><p>まずは無料版で、今日の用事を1つだけAIに頼んでみませんか。足りないと感じた所が、有料にするかを決める一番の材料になります。</p><p>あなたが最初に任せたい仕事は何ですか？</p><p>最後まで読んでくださり、ありがとうございました。</p></div><script>(function(C){var R=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
 var art=document.querySelector("article");if(!art)return;
+/* 読んだ記事を覚えておく（カテゴリページの「読んだ」印に使う。この端末の中だけ。同じ github.io の別サイトと混ざらないよう、パス全体で覚える） */
+try{var RK="ax-read",RL=JSON.parse(localStorage.getItem(RK)||"[]"),me=location.pathname;if(RL.indexOf(me)<0){RL.push(me);localStorage.setItem(RK,JSON.stringify(RL.slice(-300)))}}catch(e){}
 /* 読むのにかかる時間（1 分 500 字で計算） */
 var n=(art.innerText||"").replace(/\s/g,"").length,m=Math.max(1,Math.round(n/500)),d=art.querySelector(".date");
 if(d){var t=document.createElement("span");t.className="ax-time";t.textContent=C.time.replace("{m}",m);d.after(t)}
