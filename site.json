@@ -223,5 +223,21 @@
   "sub": "Copilot・ChatGPT・Gemini対応／著者 まさび／500円・Kindle Unlimited 対象",
   "note": "会社のPCで、明日の朝からそのまま使える39の頼み方を1冊にまとめました。サイトとは別に書き下ろした内容です。",
   "btn": "Amazonで見る（Kindle）"
- }
+ },
+ "a8_ads": [
+  {
+   "name": "Notta（AI文字起こし）",
+   "note": "会議や講義の音声を、AIが文字起こしして議事録にする",
+   "btn": "無料で試す",
+   "cats": [
+    "Claude",
+    "Copilot",
+    "NotebookLM",
+    "Gemini",
+    "ChatGPT"
+   ],
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BENDR+2Z9W2+5988+5YJRM",
+   "beacon": "https://www16.a8.net/0.gif?a8mat=4BENDR+2Z9W2+5988+5YJRM"
+  }
+ ]
 }
