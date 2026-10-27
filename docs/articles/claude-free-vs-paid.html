@@ -127,6 +127,39 @@ table{font-size:14.5px}th{background:#1b3370;color:#fff}th,td{border-color:#2c44
 aside .box-h{border-bottom:2px solid #4da3ff}
 .mini b{background:#ff9a3d;color:#06102a}
 footer{background:#06102a;border-top:1px solid #24386b}
+
+/* hero-base: 2026-10-27 トップの見せ場の共通部分 */
+.hx{padding:24px 0 6px}.hx-eyebrow{font-size:13px;font-weight:700;letter-spacing:.08em;color:var(--accent);margin:0 0 8px}
+.hx-h1{font-size:clamp(28px,5vw,46px);line-height:1.3;margin:0 0 14px}.hx-h1 em{font-style:normal;color:var(--accent)}
+.hx-lead{color:var(--muted);font-size:15px;margin:0 0 22px;max-width:680px}
+.hx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 26px}.hx-chips a{text-decoration:none;font-size:13px;padding:5px 12px}
+.hx-vs{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin:0 0 22px}.hx-vs p{margin:0;font-size:13px;color:var(--muted)}
+.hx-k{font-size:12px;color:var(--muted)}.hx-v{font-size:clamp(20px,3.4vw,28px);font-weight:800;line-height:1.35;margin:4px 0}
+.hx-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 22px}.hx-stats b{display:block;line-height:1.1;font-variant-numeric:tabular-nums}.hx-stats span{font-size:12px;color:var(--muted)}
+.hx-steps{list-style:none;padding:0;margin:0 0 8px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.hx-steps strong{display:block;font-size:15px}.hx-steps span{font-size:12px;color:var(--muted)}
+@media (max-width:560px){.hx-vs,.hx-steps{grid-template-columns:1fr}.hx-stats{gap:6px}}
+[data-seq]>*{opacity:0;transform:translateY(6px);transition:opacity .4s,transform .4s}[data-seq]>.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){[data-seq]>*{opacity:1;transform:none;transition:none}}
+
+/* hero: dashboard (2026-10-27) */
+.hx-biz .hx-h1 em{color:#4da3ff;text-shadow:0 0 18px #4da3ff66}.hx-biz .hx-eyebrow{color:#ff9a3d}
+.hx-dash{background:#08102a;border:1px solid #4da3ff66;border-radius:10px;box-shadow:0 0 30px #4da3ff22;overflow:hidden}
+.hx-dash-bar{display:flex;gap:6px;align-items:center;padding:8px 12px;background:#0f1d42;border-bottom:1px solid #24386b}.hx-dash-bar i{width:10px;height:10px;border-radius:50%;background:#24386b}.hx-dash-bar i:first-child{background:#ff9a3d}
+.hx-dash-bar span{margin-left:8px;font-size:11px;color:#9fb0d4;font-family:ui-monospace,monospace}
+.hx-dash-q{padding:14px 16px 4px;font-family:ui-monospace,monospace;color:#4da3ff;min-height:52px}.hx-dash-q span{color:#e8eefc}
+.hx-ais{list-style:none;margin:0;padding:6px 12px 10px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.hx-ais a{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border:1px solid #24386b;border-radius:6px;background:#0f1d42;color:#e8eefc;text-decoration:none;font-weight:700;position:relative}
+.hx-ais a span{font-size:11px;font-weight:400;color:#9fb0d4}.hx-ais a:hover{border-color:#4da3ff;box-shadow:0 0 12px #4da3ff55}
+.hx-ais b{position:absolute;right:10px;top:12px;width:8px;height:8px;border-radius:50%;background:#24386b}.hx-ais li.on b{background:#3ddc97;box-shadow:0 0 8px #3ddc97}
+.hx-dash-f{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 16px;border-top:1px solid #24386b;font-size:12px;color:#9fb0d4}
+.hx-go{background:#4da3ff;color:#06102a;text-decoration:none;font-weight:700;font-size:13px;padding:7px 14px;border-radius:4px}
+.hx-biz .hx-chips a{background:#0f1d42;border:1px solid #24386b;color:#cfdcf7;border-radius:4px}.hx-biz .hx-chips a:hover{border-color:#4da3ff}
+.hx-biz .hx-vs{background:#0f1d42;border:1px solid #24386b;border-radius:8px;padding:18px 14px}
+.hx-biz .hx-side:not(.on) .hx-v{color:#ff9a3d}.hx-biz .hx-side.on .hx-v{color:#3ddc97}.hx-biz .hx-mid{font-size:13px;font-weight:700;color:#06102a;background:#4da3ff;border-radius:4px;padding:3px 8px}
+.hx-biz .hx-stats div{background:linear-gradient(180deg,#12224d,#0f1d42);border:1px solid #24386b;border-radius:8px;padding:12px 14px;border-top:3px solid #4da3ff}
+.hx-biz .hx-stats b{font-size:clamp(30px,5vw,42px);color:#e8eefc}
+.hx-biz .hx-steps li{background:#0f1d42;border:1px solid #24386b;border-radius:8px;padding:12px}.hx-biz .hx-steps b{font-size:11px;letter-spacing:.12em;color:#ff9a3d}
+@media (max-width:560px){.hx-ais{grid-template-columns:1fr 1fr}}
 </style><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHWF25C1RB"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-EHWF25C1RB');</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Claudeの無料と有料の違い｜Proにすると何が変わる？", "description": "Claudeの無料と有料の違いを、会社員の仕事の場面でくらべます。Proにすると使える量が無料の5倍以上になり、上位モデルのOpus、Excel・Outlookで使えるClaude for Microsoft 365、調べものを深めるResearchが加わります。料金とデータの扱いも公式情報で確かめました。", "datePublished": "2026-10-21", "image": "https://masabee1029.github.io/ai-free-vs-paid/img/articles/claude-free-vs-paid.jpg", "author": {"@type": "Person", "name": "運営者", "url": "https://masabee1029.github.io/ai-free-vs-paid/about.html"}, "publisher": {"@type": "Organization", "name": "AIの無料と有料くらべ"}, "mainEntityOfPage": "https://masabee1029.github.io/ai-free-vs-paid/articles/claude-free-vs-paid.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://masabee1029.github.io/ai-free-vs-paid/index.html"}, {"@type": "ListItem", "position": 2, "name": "Claude", "item": "https://masabee1029.github.io/ai-free-vs-paid/category/claude.html"}, {"@type": "ListItem", "position": 3, "name": "Claudeの無料と有料の違い｜Proにすると何が変わる？", "item": "https://masabee1029.github.io/ai-free-vs-paid/articles/claude-free-vs-paid.html"}]}</script></head><body>
 <header><div class="wrap"><div class="top"><a class="logo" href="../index.html">AIの<span>無料と有料</span>くらべ</a><span class="tagline">6つのAIを表で比べる</span></div>
