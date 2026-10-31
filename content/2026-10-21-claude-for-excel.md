@@ -1,13 +1,13 @@
 ---
 title: Claude for Excelとは？できることと始める前の確認
-description: Claude for Excelとは何か、できることと始める前の確認をまとめます。Excelの中でClaudeに数式の説明やエラーの原因探しを頼める追加機能（アドイン）で、Pro・Max・Team・Enterpriseで使えます。対応バージョン、無料版との違い、会社で使うときの注意を公式情報で確かめました。
+description: Claude for Excelとは何か、できることと始める前の確認をまとめます。Excelの中でClaudeに数式の説明やエラーの原因探しを頼める追加機能（アドイン）で、Pro・Max・Ultra・Team・Enterpriseで使えます。対応バージョン、無料版との違い、会社で使うときの注意を公式情報で確かめました。
 category: Claude
 ---
 あなたも、前任者から引き継いだExcelを開いて、「このセルの数字はどこから来ているの？」と困ったことはありませんか。
 結論から言うと、Claude for Excelとは、Excelの画面の中でClaudeに質問したり、表の手直しを頼んだりできる追加機能（アドイン）です。
-数式の説明、エラーの原因探し、前提の数字を変えたときの計算の更新などができ、使えるのは有料のPro・Max・Team・Enterpriseのプランです。
+数式の説明、エラーの原因探し、前提の数字を変えたときの計算の更新などができ、使えるのは有料のPro・Max・Ultra・Team・Enterpriseのプランです。
 
-**確認日：2026年10月21日**（料金・上限は各社の公式情報で確認。変わることがあります）
+**確認日：2026年11月1日**（料金・上限は各社の公式情報で確認。変わることがあります）
 
 ## Claude for Excelでできること
 
@@ -99,7 +99,7 @@ Excelの関数や数式の基本を本で押さえておくと、Claudeの説明
 Claude for Excelは、Excelを開いたまま、表の説明や手直しをClaudeに頼める追加機能です。
 
 - 数式の説明、エラーの原因探し、前提の数字の変更、並べ替えやピボットの編集ができる
-- 使えるのはPro・Max・Team・Enterpriseで、無料版では使えない
+- 使えるのはPro・Max・Ultra・Team・Enterpriseで、無料版では使えない
 - Web版・Microsoft 365のWindows版・Mac版16.46以降に対応、Excel 2016・2019やiPad版は対象外
 - 会社のPCでは、利用規程と情報システム部門の確認を先に
 
