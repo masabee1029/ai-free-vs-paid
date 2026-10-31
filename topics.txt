@@ -45,6 +45,14 @@
 済 Claude無料版でファイル・画像は読める？上限の考え方 | Claude | claude-free-file-upload
 済 ChatGPT Goの料金と無料との違い｜安い有料プランで何ができる？ | ChatGPT | chatgpt-go-price
 済 ChatGPTの無料と有料でファイルアップロードはどう違う？ | ChatGPT | chatgpt-file-upload-limits
+ChatGPTの制限の確認方法｜あと何回使える？上限にかかったときの見分け方 | ChatGPT | chatgpt-limit-check
+ChatGPTに学習させない設定｜無料版でもできる？会社の情報を守る手順 | ChatGPT | chatgpt-opt-out-training
+Geminiに個人情報を学習させない設定｜無料版と有料版で違う？ | Gemini | gemini-opt-out-training
+GeminiとNotebookLMの違い｜無料で使うならどっち？資料まとめの使い分け | 比較 | gemini-vs-notebooklm
+Claude Opusの料金｜どのプランで使える？無料版との違い | Claude | claude-opus-pricing
+Claude HaikuとSonnetの違い｜料金と仕事での使い分け | Claude | claude-haiku-vs-sonnet
+NotebookLMの文字起こしは無料でできる？やり方と上限 | NotebookLM | notebooklm-transcription-free
+NotebookLMの年間プラン｜月払いとどちらが得？無料版との違い | NotebookLM | notebooklm-annual-plan
 Gemini無料版でDeep Researchは使える？上限と有料との違い | Gemini | gemini-deep-research-free
 Google AI ProとAI Ultraの違い｜どちらを選ぶ？ | Gemini | gemini-ai-pro-vs-ultra
 Copilotの個人向けと会社向けの違い｜同じアイコンで中身はどう違う？ | Copilot | copilot-personal-vs-work
