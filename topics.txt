@@ -45,7 +45,7 @@
 済 Claude無料版でファイル・画像は読める？上限の考え方 | Claude | claude-free-file-upload
 済 ChatGPT Goの料金と無料との違い｜安い有料プランで何ができる？ | ChatGPT | chatgpt-go-price
 済 ChatGPTの無料と有料でファイルアップロードはどう違う？ | ChatGPT | chatgpt-file-upload-limits
-ChatGPTの制限の確認方法｜あと何回使える？上限にかかったときの見分け方 | ChatGPT | chatgpt-limit-check
+済 ChatGPTの制限の確認方法｜あと何回使える？上限にかかったときの見分け方 | ChatGPT | chatgpt-limit-check
 ChatGPTに学習させない設定｜無料版でもできる？会社の情報を守る手順 | ChatGPT | chatgpt-opt-out-training
 Geminiに個人情報を学習させない設定｜無料版と有料版で違う？ | Gemini | gemini-opt-out-training
 GeminiとNotebookLMの違い｜無料で使うならどっち？資料まとめの使い分け | 比較 | gemini-vs-notebooklm
