@@ -84,6 +84,7 @@ IMAGES = bool(SITECFG.get("images")) and os.path.exists(os.path.join(ROOT, "make
 # AI 画像の明記（2026-10-29 本人指示。wiki「生成AI・AI画像の炎上を防ぐ」決まり 1）
 # no_ai_images: 図形と文字だけの予備画像に差し替えた記事の slug（画像生成AIで作り直さない印も兼ねる）
 # header_ai: ヘッダー画像が画像生成AI製なら true（既定 true）
+# header_all_pages: true なら全ページの header（ナビの下）にヘッダー画像を出す（トップの hero-img は出さない）
 NO_AI = set(SITECFG.get("no_ai_images", []))
 
 def eyecatch_is_ai(slug):
@@ -321,6 +322,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 @media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr);gap:8px}}
 .hero{padding:20px 0 8px}.hero h1{font-size:28px;line-height:1.4;margin:0 0 10px}.hero p{color:var(--muted);margin:0;font-size:15px}
 .hero-img{display:block;width:100%;height:auto;border-radius:14px}
+.site-banner{display:block;width:100%;height:auto;border-radius:14px;margin:12px 0 4px}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
@@ -408,7 +410,7 @@ def page(title, desc, body, path, depth=0, og_image="og.png", ld="", cat_on="", 
 <meta name="twitter:card" content="summary_large_image">
 <style>%s</style>%s%s</head><body>
 <header><div class="wrap"><div class="top"><a class="logo" href="%sindex.html">LOGO_HTML</a><span class="tagline">%s</span></div>
-<nav class="gnav">%s</nav></div></header>
+<nav class="gnav">%s</nav>HEADER_IMG</div></header>
 <div class="wrap">%s</div>
 <footer><div class="wrap"><div class="fcats">%s</div><a href="%sabout.html">このサイトについて</a><a href="%sprivacy.html">プライバシーポリシー</a>%s
 <div class="prnote">%s</div><div>© %d %s</div></div></footer></body></html>""" % (
@@ -418,7 +420,10 @@ def page(title, desc, body, path, depth=0, og_image="og.png", ld="", cat_on="", 
         up, up,
         ('<a href="%s" target="_blank" rel="noopener">お問い合わせ</a>' % e(CFG["contact_url"])) if CFG.get("contact_url") else "",
         PR_TEXT, date.today().year, NAME)
-    return html_out.replace("OGIMG", og_image)
+    header_img = ('<a href="%sindex.html"><img class="site-banner" src="%simg/header.jpg" alt="%s"></a>' % (
+        up, up, e(("AIで作成したイメージ画像：" + NAME) if SITECFG.get("header_ai", True) else NAME))) \
+        if (IMAGES and SITECFG.get("header_all_pages")) else ""
+    return html_out.replace("OGIMG", og_image).replace("HEADER_IMG", header_img)
 
 def card(a, up="", h="h2"):
     e = html.escape
@@ -504,7 +509,7 @@ def build():
     hero = '<div class="hero"><h1>%s</h1><p>%s</p></div>' % (SITECFG["hero_title"], SITECFG["hero_text"])
     if SITECFG.get("hero_html"):
         hero = SITECFG["hero_html"].replace("{N_ARTICLES}", str(len(arts))).replace("{N_CATS}", str(len(CATS)))
-    if IMAGES:
+    if IMAGES and not SITECFG.get("header_all_pages"):
         hero = '<img class="hero-img" src="img/header.jpg" alt="%s">' % e(("AIで作成したイメージ画像：" + NAME) if SITECFG.get("header_ai", True) else NAME) + hero
     home = hero + '<h2 class="sec-h">はじめての方へ：まず読みたい記事</h2><div class="cards">%s</div>' % "".join(card(a, "", "h3") for a in featured)
     home += picks_box("", SITECFG["home_picks_title"])
