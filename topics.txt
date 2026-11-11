@@ -49,7 +49,7 @@
 済 ChatGPTに学習させない設定｜無料版でもできる？会社の情報を守る手順 | ChatGPT | chatgpt-opt-out-training
 済 Geminiに個人情報を学習させない設定｜無料版と有料版で違う？ | Gemini | gemini-opt-out-training
 済 GeminiとNotebookLMの違い｜無料で使うならどっち？資料まとめの使い分け | 比較 | gemini-vs-notebooklm
-Claude Opusの料金｜どのプランで使える？無料版との違い | Claude | claude-opus-pricing
+済 Claude Opusの料金｜どのプランで使える？無料版との違い | Claude | claude-opus-pricing
 Claude HaikuとSonnetの違い｜料金と仕事での使い分け | Claude | claude-haiku-vs-sonnet
 NotebookLMの文字起こしは無料でできる？やり方と上限 | NotebookLM | notebooklm-transcription-free
 NotebookLMの年間プラン｜月払いとどちらが得？無料版との違い | NotebookLM | notebooklm-annual-plan
