@@ -259,6 +259,30 @@
    {
     "name": "Google NotebookLM 即効活用大全"
    }
+  ],
+  "ICレコーダー": [
+   {
+    "name": "ソニー ICD-PX470F"
+   },
+   {
+    "name": "OM SYSTEM WS-883"
+   },
+   {
+    "name": "フィリップス VTR5101"
+   }
+  ],
+  "ドキュメントスキャナー": [
+   {
+    "name": "PFU ScanSnap iX1300"
+   },
+   {
+    "name": "PFU ScanSnap iX2500"
+   }
+  ],
+  "ノートパソコン スタンド": [
+   {
+    "name": "アイリスオーヤマ ノートパソコンスタンド"
+   }
   ]
  },
  "vc_title": "あわせて使えるサービス（PR）",
