@@ -208,6 +208,73 @@
    {
     "name": "外資系コンサルのリサーチ技法"
    }
+  ],
+  "ChatGPT 本 入門": [
+   {
+    "name": "マンガでわかるChatGPT"
+   },
+   {
+    "name": "この一冊で全部わかる ChatGPT & Copilotの教科書"
+   },
+   {
+    "name": "できるChatGPT"
+   }
+  ],
+  "Claude 本": [
+   {
+    "name": "実践Claude Code入門"
+   },
+   {
+    "name": "Claude Code実践入門"
+   },
+   {
+    "name": "できるClaude＆Claude Cowork"
+   },
+   {
+    "name": "Claude Code徹底活用術",
+    "src": "楽天"
+   }
+  ],
+  "Gemini 本": [
+   {
+    "name": "Gemini 最強のAI仕事術"
+   },
+   {
+    "name": "ビジュアル グーグルの最強AI Gemini活用術"
+   },
+   {
+    "name": "Gemini AI活用 最強の教科書"
+   },
+   {
+    "name": "Googleサービスがぜんぶわかる本 最新Gemini対応版",
+    "src": "楽天"
+   }
+  ],
+  "Microsoft 365 本": [
+   {
+    "name": "今すぐ使えるかんたん Microsoft 365"
+   },
+   {
+    "name": "Microsoft 365 Copilot活用大全"
+   },
+   {
+    "name": "よくわかる Microsoft 365使いこなし術"
+   },
+   {
+    "name": "Microsoft 365 Copilot 活用大全",
+    "src": "楽天"
+   }
+  ],
+  "NotebookLM 本": [
+   {
+    "name": "できるGoogle NotebookLM"
+   },
+   {
+    "name": "Google NotebookLM 徹底活用術"
+   },
+   {
+    "name": "Google NotebookLM 即効活用大全"
+   }
   ]
  },
  "vc_title": "あわせて使えるサービス（PR）",
