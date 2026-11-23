@@ -147,7 +147,68 @@
  "profile_html": "大手印刷会社で約20年、製造・品質管理・営業支援を担当したのち、グラフィックデザイナーとして独立。いまは広告・ブランド相談の会社を運営しながら、毎日の仕事でAIを使っています。会社員のあなたが「無料でどこまでできるか」を、仕事の場面に沿ってお伝えします。<br>AIを何も知らない人向けの連載は、毎朝7時に<a href=\"https://note.com/masabee00001\">note</a>で書いています。",
  "next_step_html": "<p>最後まで読んでくださり、ありがとうございました。</p><p>まずは無料版で、今日の用事を1つだけAIに頼んでみませんか。足りないと感じた所が、有料にするかを決める一番の材料になります。</p><p>あなたが最初に任せたい仕事は何ですか？</p>",
  "refs": {
-  "_label": "2026年10月の人気"
+  "_label": "2026年10月の人気",
+  "画像生成AI プロンプト 本": [
+   {
+    "name": "画像生成AIプロンプトの教科書"
+   },
+   {
+    "name": "ChatGPT Images 2.0 画像生成入門"
+   }
+  ],
+  "図解 資料作成 本": [
+   {
+    "name": "プレゼン資料の図解化大全"
+   },
+   {
+    "name": "社内プレゼンの資料作成術【完全版】"
+   }
+  ],
+  "Excel 関数 本": [
+   {
+    "name": "できるポケット 時短の王道 Excel関数全事典"
+   },
+   {
+    "name": "Excel関数 やさしい教科書（一冊に凝縮）"
+   }
+  ],
+  "Excel Copilot 本": [
+   {
+    "name": "Microsoft 365 Copilot活用大全"
+   },
+   {
+    "name": "CopilotとはじめるExcel関数"
+   }
+  ],
+  "生成AI 情報セキュリティ 本": [
+   {
+    "name": "マンガでわかる！AIセキュリティ超入門"
+   },
+   {
+    "name": "生成AIの安全性入門"
+   }
+  ],
+  "ICレコーダー": [
+   {
+    "name": "Plaud Note Pro AIボイスレコーダー"
+   },
+   {
+    "name": "Anker Soundcore Work"
+   }
+  ],
+  "ドキュメントスキャナー": [
+   {
+    "name": "PFU ScanSnap iX1300"
+   },
+   {
+    "name": "PFU ScanSnap iX110"
+   }
+  ],
+  "リサーチ 仕事術 本": [
+   {
+    "name": "外資系コンサルのリサーチ技法"
+   }
+  ]
  },
  "vc_title": "あわせて使えるサービス（PR）",
  "vc_ads": [
@@ -272,5 +333,139 @@
  },
  "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"READ\", \"pre\": \"#\"});</script>",
  "header_ai": true,
- "header_all_pages": true
+ "header_all_pages": true,
+ "article_picks": {
+  "chatgpt-image-limits": [
+   [
+    "画像生成AI プロンプト 本",
+    "画像生成AIの本",
+    "言葉で絵を頼むコツが分かる"
+   ],
+   [
+    "図解 資料作成 本",
+    "図解で伝える資料の本",
+    "作った画像を資料に活かせる"
+   ]
+  ],
+  "gemini-image-limits": [
+   [
+    "画像生成AI プロンプト 本",
+    "画像生成AIの本",
+    "無料枠で試すときの頼み方に"
+   ],
+   [
+    "Gemini 本",
+    "Geminiの解説書",
+    "Googleのサービスとの連携が分かる"
+   ]
+  ],
+  "claude-for-excel": [
+   [
+    "Excel 関数 本",
+    "Excelの関数の本",
+    "AIに頼む前の土台になる"
+   ],
+   [
+    "Claude 本",
+    "Claudeの解説書",
+    "長い文章の扱い方が分かる"
+   ]
+  ],
+  "copilot-in-excel": [
+   [
+    "Excel Copilot 本",
+    "Excel×Copilotの本",
+    "表の分析をAIに頼む手順に"
+   ],
+   [
+    "Excel 関数 本",
+    "Excelの関数の本",
+    "AIの答えを確かめる力がつく"
+   ]
+  ],
+  "copilot-history-company": [
+   [
+    "生成AI 情報セキュリティ 本",
+    "生成AIとセキュリティの本",
+    "入れてよい情報の線引きに"
+   ],
+   [
+    "Microsoft 365 本",
+    "Microsoft 365の本",
+    "会社のPCの機能を見直せる"
+   ]
+  ],
+  "chatgpt-opt-out-training": [
+   [
+    "生成AI 情報セキュリティ 本",
+    "生成AIとセキュリティの本",
+    "入れてよい情報の線引きに"
+   ],
+   [
+    "ChatGPT 本 入門",
+    "ChatGPTの入門書",
+    "設定画面の意味が分かる"
+   ]
+  ],
+  "gemini-opt-out-training": [
+   [
+    "生成AI 情報セキュリティ 本",
+    "生成AIとセキュリティの本",
+    "入れてよい情報の線引きに"
+   ],
+   [
+    "Gemini 本",
+    "Geminiの解説書",
+    "設定の意味が分かる"
+   ]
+  ],
+  "notebooklm-security": [
+   [
+    "生成AI 情報セキュリティ 本",
+    "生成AIとセキュリティの本",
+    "入れてよい情報の線引きに"
+   ],
+   [
+    "NotebookLM 本",
+    "NotebookLMの解説書",
+    "資料の扱い方が分かる"
+   ]
+  ],
+  "notebooklm-transcription-free": [
+   [
+    "ICレコーダー",
+    "会議用のICレコーダー",
+    "音声ファイルを手元で作れる"
+   ],
+   [
+    "NotebookLM 本",
+    "NotebookLMの解説書",
+    "資料の読み込みとまとめ方"
+   ]
+  ],
+  "claude-free-file-upload": [
+   [
+    "ドキュメントスキャナー",
+    "ドキュメントスキャナー",
+    "紙の資料をファイルにできる"
+   ],
+   [
+    "Claude 本",
+    "Claudeの解説書",
+    "長い文章の扱い方が分かる"
+   ]
+  ],
+  "gemini-deep-research-free": [
+   [
+    "リサーチ 仕事術 本",
+    "調べものの仕事術の本",
+    "出てきた報告書の見極め方に"
+   ],
+   [
+    "Gemini 本",
+    "Geminiの解説書",
+    "Googleのサービスとの連携が分かる"
+   ]
+  ]
+ }
 }
