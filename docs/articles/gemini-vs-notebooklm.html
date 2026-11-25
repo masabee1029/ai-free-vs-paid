@@ -26,7 +26,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
-.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1200/630;object-fit:cover;border-radius:12px 12px 0 0}
+.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1024/572;object-fit:cover;border-radius:12px 12px 0 0}
 .card{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg);display:block;transition:transform .15s}
 .card:hover{border-color:var(--accent);transform:translateY(-2px)}.card h2,.card h3{font-size:16px;line-height:1.5;margin:6px 0}.card p{font-size:13px;color:var(--muted);margin:0}
 .tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none}
@@ -40,6 +40,7 @@ article h3{font-size:18px;margin-top:28px;border-bottom:2px solid var(--line);pa
 .lead{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;margin:16px 0}
 .lead strong{display:block;color:var(--accent)}
 .toc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:10px;padding:12px 20px;font-size:14px;margin:20px 0}
+.fig{margin:22px 0;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(127,127,127,.25)}.fig figcaption{font-size:.9em;color:var(--muted,#666);margin-top:8px;line-height:1.6}.fig-tag{display:inline-block;font-size:.78em;border:1px solid currentColor;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .note{background:var(--card);border-left:4px solid var(--accent2);padding:10px 14px;border-radius:6px;margin:16px 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--soft)}
 code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:14px}
@@ -67,7 +68,7 @@ aside .box-h{font-weight:800;font-size:15px;margin:-4px 0 10px;padding-bottom:6p
 aside .sticky{position:sticky;top:16px}
 aside .picks{margin:0 0 20px}
 .mini{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--fg);padding:8px 0;border-top:1px solid var(--line);line-height:1.5}
-.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px}
+.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1024/572;object-fit:cover;border-radius:6px}
 .mini b{display:inline-block;flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent2);color:#fff;font-size:12px;text-align:center;line-height:22px}
 .catlist a{display:flex;justify-content:space-between;text-decoration:none;color:var(--fg);padding:6px 0;border-top:1px solid var(--line)}.catlist a:first-of-type{border-top:0}
 .catlist small{color:var(--muted)}
@@ -239,6 +240,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>同じGoogleのAIでも、得意な仕事が違います。社内の資料まとめを例に並べました。</p>
 <div class="tbl"><table><tr><th>くらべる点</th><th>Gemini（アプリ）</th><th>NotebookLM（Gemini Notebook）</th></tr><tr><td>ひとことで</td><td>何でも相談できる相棒</td><td>入れた資料だけで答える資料係</td></tr><tr><td>答えのもと</td><td>モデルの知識・Web・渡したファイルなど</td><td>ノートブックに入れたソース（資料）</td></tr><tr><td>答えが資料にないとき</td><td>別の知識で答えることがある</td><td>公式ヘルプでは「答えがソースにない場合は回答できない」</td></tr><tr><td>出典の表示</td><td>機能や答え方による</td><td>回答の中に引用が付く</td></tr><tr><td>得意なこと</td><td>文章の下書き、アイデア出し、調べ物、画像作成</td><td>複数の資料の要約、学習ガイド、音声概要、マインドマップ</td></tr><tr><td>資料の持ち続け</td><td>チャットごとに渡すことが多い</td><td>ノートブックに置いて何度でも質問できる</td></tr></table></div>
 <p>社内の決まりや製品の仕様のように「書いてあることだけ知りたい」質問はNotebookLM、「このメールを柔らかく直して」のような作業はGemini、と分けると迷いにくくなります。</p>
+<figure class="fig"><img src="../img/fig/gemini-vs-notebooklm-1.png" alt="説明用の図：相棒のGeminiと、資料係のNotebookLMの違い" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>相棒のGeminiと、資料係のNotebookLMの違い</figcaption></figure>
 <h2 id="s2">無料版の上限を数字で比べる</h2>
 <p>2026年11月9日に公式ヘルプで確かめた、無料版の主な数字です。</p>
 <div class="tbl"><table><tr><th>項目</th><th>Gemini 無料版</th><th>NotebookLM 無料版（Standard）</th></tr><tr><td>ファイルの数</td><td>1回のプロンプトに最大10個（状況により制限あり）</td><td>1つのノートブックにソース50個</td></tr><tr><td>ファイルの大きさ</td><td>動画は1ファイル2GB、その他は各100MBまで</td><td>1ソース50万語、アップロードは200MBまで</td></tr><tr><td>一度に読める量</td><td>コンテキスト ウィンドウ（一度に読める量）32,000トークン</td><td>1ソース50万語が上限の目安</td></tr><tr><td>利用の回数</td><td>回数の明記はなく、コンピューティング量の上限（5時間ごとにリセット、週の上限あり）</td><td>チャット1日50回、音声生成1日3回</td></tr><tr><td>保存できる場所</td><td>容量の上限あり</td><td>ノートブック100個</td></tr></table></div>
@@ -253,6 +255,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>私も最初は、どちらも同じAIだと思って、なんとなく片方だけを使ってつまずきがちでした。流れで分けると、役割がはっきりします。</p>
 <div class="tbl"><table><tr><th>仕事の場面</th><th>使う道具</th><th>頼み方の例</th></tr><tr><td>議事録10本から、決まったことを拾う</td><td>NotebookLM</td><td>「決まったことを日付順に表にして、出典も示して」</td></tr><tr><td>製品の仕様書について質問する</td><td>NotebookLM</td><td>「この仕様の許容差は？書かれていなければそう答えて」</td></tr><tr><td>拾った内容を、上司向けのメールに直す</td><td>Gemini</td><td>「次の要点を、丁寧で短いメールにして」</td></tr><tr><td>新しい分野の基礎を調べる</td><td>Gemini</td><td>「工程管理の基本を、新人向けに説明して」</td></tr><tr><td>通勤中に資料の内容を耳で聞く</td><td>NotebookLM</td><td>音声概要を作る</td></tr></table></div>
 <p>大事なのは、<strong>NotebookLMで事実を拾い、Geminiで形にする</strong>という順番です。浮いた時間は、早く帰って家族との時間に回せます。</p>
+<figure class="fig"><img src="../img/fig/gemini-vs-notebooklm-2.png" alt="説明用の図：NotebookLMで事実を拾い、Geminiで形にする順番" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>NotebookLMで事実を拾い、Geminiで形にする順番</figcaption></figure>
 <h2 id="s5">向かない人・注意点</h2>
 <p>NotebookLMは、資料がまだ手元にない人や、アイデアを広げたい人には向いていません。入れた資料の外には答えを広げないからです。Geminiは、資料の内容を一字一句確かめたい仕事には不向きで、答えを元の資料で確かめる手間が残ります。</p>
 <p>データの扱いにも違いがあります。NotebookLMの公式ヘルプでは、フィードバックを送らないかぎり、あなたのデータはトレーニングに使われないと説明されています。Geminiの個人アカウントは、アクティビティの保存の設定によって扱いが変わります（<a href="gemini-opt-out-training.html">Geminiに学習させない設定</a>）。</p>

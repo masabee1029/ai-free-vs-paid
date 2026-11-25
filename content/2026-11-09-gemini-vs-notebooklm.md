@@ -26,6 +26,8 @@ NotebookLMは、2026年7月から公式の名前が「Gemini Notebook」に変�
 
 社内の決まりや製品の仕様のように「書いてあることだけ知りたい」質問はNotebookLM、「このメールを柔らかく直して」のような作業はGemini、と分けると迷いにくくなります。
 
+[[fig:gemini-vs-notebooklm-1.png|相棒のGeminiと、資料係のNotebookLMの違い|draw]]
+
 ## 無料版の上限を数字で比べる
 
 2026年11月9日に公式ヘルプで確かめた、無料版の主な数字です。
@@ -70,6 +72,8 @@ Googleの有料プランは、GeminiとNotebookLMが同じプランの中に入�
 | 通勤中に資料の内容を耳で聞く | NotebookLM | 音声概要を作る |
 
 大事なのは、**NotebookLMで事実を拾い、Geminiで形にする**という順番です。浮いた時間は、早く帰って家族との時間に回せます。
+
+[[fig:gemini-vs-notebooklm-2.png|NotebookLMで事実を拾い、Geminiで形にする順番|draw]]
 
 ## 向かない人・注意点
 

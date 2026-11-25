@@ -26,7 +26,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
-.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1200/630;object-fit:cover;border-radius:12px 12px 0 0}
+.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1024/572;object-fit:cover;border-radius:12px 12px 0 0}
 .card{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg);display:block;transition:transform .15s}
 .card:hover{border-color:var(--accent);transform:translateY(-2px)}.card h2,.card h3{font-size:16px;line-height:1.5;margin:6px 0}.card p{font-size:13px;color:var(--muted);margin:0}
 .tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none}
@@ -40,6 +40,7 @@ article h3{font-size:18px;margin-top:28px;border-bottom:2px solid var(--line);pa
 .lead{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;margin:16px 0}
 .lead strong{display:block;color:var(--accent)}
 .toc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:10px;padding:12px 20px;font-size:14px;margin:20px 0}
+.fig{margin:22px 0;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(127,127,127,.25)}.fig figcaption{font-size:.9em;color:var(--muted,#666);margin-top:8px;line-height:1.6}.fig-tag{display:inline-block;font-size:.78em;border:1px solid currentColor;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .note{background:var(--card);border-left:4px solid var(--accent2);padding:10px 14px;border-radius:6px;margin:16px 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--soft)}
 code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:14px}
@@ -67,7 +68,7 @@ aside .box-h{font-weight:800;font-size:15px;margin:-4px 0 10px;padding-bottom:6p
 aside .sticky{position:sticky;top:16px}
 aside .picks{margin:0 0 20px}
 .mini{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--fg);padding:8px 0;border-top:1px solid var(--line);line-height:1.5}
-.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px}
+.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1024/572;object-fit:cover;border-radius:6px}
 .mini b{display:inline-block;flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent2);color:#fff;font-size:12px;text-align:center;line-height:22px}
 .catlist a{display:flex;justify-content:space-between;text-decoration:none;color:var(--fg);padding:6px 0;border-top:1px solid var(--line)}.catlist a:first-of-type{border-top:0}
 .catlist small{color:var(--muted)}
@@ -241,6 +242,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p><strong>スマホ（iPhone・Androidのアプリ）</strong></p>
 <ol><li>サイドバーを開きます</li><li>プロフィールのアイコンを選んで、設定を開きます</li><li>「データコントロール」を選びます</li><li>「すべての人のためにモデルを改善する」をオフにします</li></ol>
 <p>公式ヘルプによると、<strong>サインインしていれば、この設定はアカウント全体に効きます</strong>。パソコンでオフにすれば、スマホのアプリでも同じ扱いになるということです。通勤中にスマホで聞いて、会社でパソコンの続きを作る、という使い方でも1回の設定で済みます。<br>サインインせずに使っているときは、「設定」で同じ項目をオフにでき、その選んだ内容は使っているブラウザに保存される、と案内されています。</p>
+<figure class="fig"><img src="../img/fig/chatgpt-opt-out-training-1.png" alt="説明用の図：パソコンで学習をオフにする4つの手順と「完了」" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>パソコンで学習をオフにする4つの手順と「完了」</figcaption></figure>
 <p>ここで知っておきたいのは、公式ヘルプに<strong>無料版・Plus・Proの個人向けの使い方では、データの共有は最初から「オン」になっている</strong>と書かれていることです。何もしなければ学習に使われる側の設定になっているので、まだ触っていないなら、今日オフにしておくと安心です。</p>
 <h2 id="s2">オフにすると何が変わる？｜履歴・メモリとのちがい</h2>
 <p>「オフにしたら、今までのチャットが消えるのでは？」という心配もよく聞きます。公式ヘルプで確かめた内容を表にしました。</p>
@@ -253,6 +255,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>一時チャットと通常のチャットのちがいを並べました。</p>
 <div class="tbl"><table><tr><th>項目</th><th>一時チャット</th><th>通常のチャット</th></tr><tr><td>履歴</td><td>保存しない限り、履歴に出ない</td><td>削除するまで履歴に残る</td></tr><tr><td>学習</td><td>一時チャットのあいだは、モデルの改善に使われない</td><td>「すべての人のためにモデルを改善する」の設定に従う</td></tr><tr><td>メモリ</td><td>新しく作ったり、更新したりしない</td><td>メモリがオンなら使ったり作ったりする</td></tr><tr><td>保管</td><td>安全のため、コピーが<strong>最長30日間</strong>保管されることがある</td><td>保存したチャットの決まりに従う</td></tr></table></div>
 <p>注意したいのは、<strong>一時チャットを「保存」すると、通常のチャットに変わる</strong>ことです。保存した時点から、あなたのアカウントの学習の設定が当てはまります。また、30日間はOpenAI側に安全のための保管がありうるので、「一時チャットなら社外秘を入れても大丈夫」という意味ではありません。</p>
+<figure class="fig"><img src="../img/fig/chatgpt-opt-out-training-2.png" alt="説明用の図：学習の設定・メモリ・一時チャットは、それぞれ別に働く" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>学習の設定・メモリ・一時チャットは、それぞれ別に働く</figcaption></figure>
 <h2 id="s4">無料版と有料版・会社向けで何が違う？</h2>
 <p>「有料版にすれば、学習されないのでは？」と考える人もいます。公式ヘルプとOpenAIのエンタープライズプライバシーのページで確かめると、分かれ目は<strong>値段ではなく「個人向けか、会社向けか」</strong>でした。</p>
 <div class="tbl"><table><tr><th>項目</th><th>無料版・Plus・Pro（個人向け）</th><th>Business・Enterprise（会社向け）</th></tr><tr><td>最初の状態</td><td>データの共有は<strong>オン</strong>（学習に使われる側）</td><td>最初から<strong>学習に使われない</strong></td></tr><tr><td>学習をオフにできる？</td><td>できる（「すべての人のためにモデルを改善する」）</td><td>もともと使われない</td></tr><tr><td>一時チャット</td><td>使える</td><td>使える（会社の保管の決まりも当てはまる）</td></tr><tr><td>自分でデータを書き出す・アカウントを消す</td><td>設定からできる</td><td>自分ではできず、ワークスペースの管理者に頼む</td></tr><tr><td>会社としての管理</td><td>なし（自分で設定する）</td><td>保管期間・メモリ・アクセスなどを会社側で設定できる</td></tr></table></div>

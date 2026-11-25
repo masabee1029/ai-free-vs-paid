@@ -26,7 +26,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
-.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1200/630;object-fit:cover;border-radius:12px 12px 0 0}
+.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1024/572;object-fit:cover;border-radius:12px 12px 0 0}
 .card{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg);display:block;transition:transform .15s}
 .card:hover{border-color:var(--accent);transform:translateY(-2px)}.card h2,.card h3{font-size:16px;line-height:1.5;margin:6px 0}.card p{font-size:13px;color:var(--muted);margin:0}
 .tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none}
@@ -40,6 +40,7 @@ article h3{font-size:18px;margin-top:28px;border-bottom:2px solid var(--line);pa
 .lead{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;margin:16px 0}
 .lead strong{display:block;color:var(--accent)}
 .toc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:10px;padding:12px 20px;font-size:14px;margin:20px 0}
+.fig{margin:22px 0;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(127,127,127,.25)}.fig figcaption{font-size:.9em;color:var(--muted,#666);margin-top:8px;line-height:1.6}.fig-tag{display:inline-block;font-size:.78em;border:1px solid currentColor;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .note{background:var(--card);border-left:4px solid var(--accent2);padding:10px 14px;border-radius:6px;margin:16px 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--soft)}
 code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:14px}
@@ -67,7 +68,7 @@ aside .box-h{font-weight:800;font-size:15px;margin:-4px 0 10px;padding-bottom:6p
 aside .sticky{position:sticky;top:16px}
 aside .picks{margin:0 0 20px}
 .mini{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--fg);padding:8px 0;border-top:1px solid var(--line);line-height:1.5}
-.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px}
+.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1024/572;object-fit:cover;border-radius:6px}
 .mini b{display:inline-block;flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent2);color:#fff;font-size:12px;text-align:center;line-height:22px}
 .catlist a{display:flex;justify-content:space-between;text-decoration:none;color:var(--fg);padding:6px 0;border-top:1px solid var(--line)}.catlist a:first-of-type{border-top:0}
 .catlist small{color:var(--muted)}
@@ -243,6 +244,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>無料版は、Googleアカウントがあれば使えます。</p>
 <ol><li><strong>ノートブックを作る</strong>。NotebookLM（Gemini Notebook）のページを開き、新しいノートブックを作ります。名前は「製品A_手順書」のように、中身がわかるものにしておくと後で探しやすくなります</li><li><strong>資料を入れる</strong>。PDFやWordのファイル、Googleドキュメント、WebページのURLなどを追加します。1つのノートブックに50個まで入ります</li><li><strong>質問する</strong>。画面のチャット欄に、資料について聞きたいことを書きます。質問は1日50回までです</li></ol>
 <p>Excelのファイルはそのままでは一覧にないため、表を読ませたいときはCSVで保存するか、Googleスプレッドシートにしてから入れる方法があります。</p>
+<figure class="fig"><img src="../img/fig/notebooklm-free-howto-1.png" alt="説明用の図：始め方の3つのステップと、答えの番号で根拠を確かめる流れ" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>始め方の3つのステップと、答えの番号で根拠を確かめる流れ</figcaption></figure>
 <h2 id="s3">仕事で使える質問の型</h2>
 <p>質問のしかたを少し工夫するだけで、答えが使いやすくなります。【　】を書き換えて使ってください。</p>
 <div class="tbl"><table><tr><th>やりたいこと</th><th>質問の例</th></tr><tr><td>要点をつかむ</td><td>「この資料の要点を3つ、それぞれ1行で教えてください」</td></tr><tr><td>必要な部分だけ探す</td><td>「【梱包】の前に確かめる項目を、資料に書いてある順に箇条書きにしてください」</td></tr><tr><td>資料どうしを比べる</td><td>「【資料A】と【資料B】で、手順が違うところを表にしてください」</td></tr><tr><td>抜けを見つける</td><td>「この手順書に書かれていない、確認が必要そうな点はありますか」</td></tr><tr><td>引き継ぎに使う</td><td>「この資料を初めて読む人が聞きそうな質問を5つ、答えと一緒に作ってください」</td></tr></table></div>
