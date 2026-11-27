@@ -541,6 +541,18 @@
     "Geminiの解説書",
     "Googleのサービスとの連携が分かる"
    ]
+  ],
+  "notebooklm-audio-overview-free": [
+   [
+    "NotebookLM 本",
+    "NotebookLMの解説書",
+    "資料の読み込みとまとめ方"
+   ],
+   [
+    "ICレコーダー",
+    "ICレコーダー",
+    "会議の録音を聞き返せる"
+   ]
   ]
  }
 }
